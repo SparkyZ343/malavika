@@ -1,0 +1,164 @@
+/* EditStudentProfile.css */
+
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container for profile edit form */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Profile Form */
+.profile-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-form input,
+.profile-form select,
+.profile-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.profile-form input[type="date"] {
+    background-color: #f9f9f9;
+}
+
+.profile-form select {
+    background-color: #f9f9f9;
+}
+
+.profile-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Submit Button */
+.profile-form button {
+    background-color: #333;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+.profile-form button:hover {
+    background-color: #494949;
+}
+
+/* Delete Button */
+.delete-form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+.delete-message, .message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Form Validation Message */
+.message, .delete-message {
+    color: green;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    nav a {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    .profile-form button {
+        font-size: 14px;
+    }
+
+    .delete-button {
+        font-size: 14px;
+    }
+}

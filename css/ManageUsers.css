@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* light blue background */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #007BFF; /* blue background */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF; /* blue text */
+}
+
+h2 {
+    color: #007BFF; /* blue text */
+    margin-top: 20px;
+}
+
+.user-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #007BFF; /* blue background */
+    color: white;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-table tr:hover {
+    background-color: #ddd;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: white;
+    background-color: #007BFF; /* blue background */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    color: white;
+    background-color: #007BFF; /* blue background */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF; /* blue background */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #007BFF; /* Blue color for the nav */
+    color: #ffffff; /* White text color */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff; /* White text color for links */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px; /* Max width for the container */
+    margin: 50px auto; /* Centered horizontally and spaced from top */
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark text color */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below each label */
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 95%; /* Full width input fields */
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space below each input field */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for input */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #28A745; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+footer {
+    text-align: center; /* Center the footer */
+    margin-top: 20px; /* Space above footer */
+    color: #777; /* Light gray text color */
+}
